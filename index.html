@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="assets/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/newcss.css"/>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <div class="img-zoom-modal">
+    <span class="img-zoom-close">&times;</span>
+    <img src="" alt="Zoomed Image" class="zoomed-img">
+    </div>
+<!-- Add this at the bottom of your body (before closing </body> tag) -->
+    <div class="zoomed-overlay"></div>
+    </head>
 
   <body oncontextmenu="return false">
     <header class="header" id="header">
@@ -389,19 +396,20 @@
 
         <div class="portfolio__container container swiper-container">
           <div class="swiper-wrapper">
-            <!-- ------------------------portfollio 1-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/1.png" class="portfolio__img" />
+        <!-- In your portfolio section, update each portfolio__content like this: -->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="assets/img/1.png" class="portfolio__img" />
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Dinas Kesehatan Kota Bogor
-                </h3>
-                <p class="portfolio__description">
-                  Membuat Projek dengan tema Dinas Kesehatan Kota Bogor untuk penyelesaian sidang kelas 2 SMK sebagai syarat kelulusan.
-                </p>
-              </div>
-            </div>
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">
+              Komunitas Vespa
+            </h3>
+            <p class="portfolio__description">
+              Membuat Web bertemakan Komunitas dan saya memilih komunitas vespa yang solid dan kompak.
+            </p>
+          </div>
+        </div>
+
             <!-- ------------------------portfollio 2-------------------- -->
 
             <div class="portfolio__content grid swiper-slide">
